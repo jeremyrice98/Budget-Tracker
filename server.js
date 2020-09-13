@@ -5,7 +5,7 @@ const compression = require("compression");
 const dotenv = require("dotenv").config();
 
 const PORT = process.env.PORT || 3001;
-const MONGODB_URI =  `mongodb+srv://mhans19:${process.env.DB_PASS}@cluster0.rg2ia.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
+const MONGODB_URI =  `mongodb+srv://root:<password>@cluster0.cka8u.mongodb.net/<dbname>?retryWrites=true&w=majority`;
 
 const app = express();
 
